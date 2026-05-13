@@ -17,19 +17,19 @@ public class Experiment {
                 }
             }
 
-            System.out.println("\n--- TESTING GRAPH SIZE: " + currentSize + " ---");
+            System.out.println("--- TESTING GRAPH SIZE: " + currentSize + " ---");
 
             long startTimeBfs = System.nanoTime();
             System.out.print("BFS Order: ");
             g.bfs(0);
             long endTimeBfs = System.nanoTime();
-            System.out.println("\nBFS Time: " + (endTimeBfs - startTimeBfs) + " ns");
+            System.out.println("BFS Time: " + (endTimeBfs - startTimeBfs) + " ns");
 
             long startTimeDfs = System.nanoTime();
             System.out.print("DFS Order: ");
             g.dfs(0);
             long endTimeDfs = System.nanoTime();
-            System.out.println("\nDFS Time: " + (endTimeDfs - startTimeDfs) + " ns");
+            System.out.println("DFS Time: " + (endTimeDfs - startTimeDfs) + " ns");
         }
     }
 }

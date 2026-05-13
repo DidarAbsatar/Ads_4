@@ -7,8 +7,12 @@ public class Edge {
         this.destination = destination;
     }
 
-    public Vertex getSource() { return source; }
-    public Vertex getDestination() { return destination; }
+    public Vertex getSource(){
+        return source;
+    }
+    public Vertex getDestination(){
+        return destination;
+    }
 
     @Override
     public String toString() {
